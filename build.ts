@@ -12,7 +12,7 @@ if (conf.parsed) {
 } else {
   if (!process.env.BASE_URL) {
     def['process.env.BASE_URL'] = JSON.stringify(
-      'https://team-be-api.lambda-team.website/'
+      'https://lambda-dev-be-wlui4vdhhq-no.a.run.app/'
     );
   } else {
     def['process.env.BASE_URL'] = JSON.stringify(process.env.BASE_URL);

@@ -1,0 +1,1 @@
+Add BASE_URL to .env file.
